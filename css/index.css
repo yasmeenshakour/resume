@@ -203,6 +203,17 @@ input[type=submit]:hover {
   #screenphotos{
     text-align: center;
   }
+  #screenphotos img{
+    filter: saturate(100%);
+      -webkit-filter:saturate(100%);
+  }
+  #screenphotos img:hover{
+    filter: saturate(30%);
+    -webkit-filter:saturate(30%);
+    -webkit-transition: 0.3 -webkit-filter linear;
+}
+
+  }
   .monophotos{
     display: inline-block;
     margin-left: auto;
@@ -210,6 +221,15 @@ input[type=submit]:hover {
   }
   #monophotos{
     text-align: center;
+  }
+  #monophotos img{
+    filter: saturate(100%);
+      -webkit-filter:saturate(100%);
+  }
+  #monophotos img:hover{
+    filter: saturate(30%);
+    -webkit-filter:saturate(30%);
+    -webkit-transition: 0.3 -webkit-filter linear;
   }
   .carvedphotos{
     display: inline-block;
@@ -219,6 +239,15 @@ input[type=submit]:hover {
   #carvedphotos{
     text-align: center;
   }
+  #carvedphotos img{
+    filter: saturate(100%);
+      -webkit-filter:saturate(100%);
+  }
+  #carvedphotos img:hover{
+    filter: saturate(30%);
+    -webkit-filter:saturate(30%);
+    -webkit-transition: 0.3 -webkit-filter linear;
+  }
   .images{
     display: inline-block;
     margin-left: auto;
@@ -226,6 +255,15 @@ input[type=submit]:hover {
   }
   #images{
     text-align: center;
+  }
+  #images img{
+    filter: saturate(100%);
+      -webkit-filter:saturate(100%);
+  }
+  #images img:hover{
+    filter: saturate(30%);
+    -webkit-filter:saturate(30%);
+    -webkit-transition: 0.3 -webkit-filter linear;
   }
   /* photo gallery styling end */
 
@@ -309,6 +347,22 @@ legend{
   text-align: center;
 }
 
+.parallax {
+  /* The image used */
+  background-image: url("../images/parallax.jpg");
+
+  /* Set a specific height */
+  height: 300px;
+  width: 100%;
+  padding-left: 30px;
+  padding-top: 10px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 @media screen and (min-width: 680px){
 
