@@ -60,6 +60,11 @@ footer{
   color: #ffffcc;
   line-height: 30px;
 }
+.footinfo h2{
+  font-size: 25px;
+  text-align: left;
+  text-decoration: none;
+}
 .footinfo .contact{
   font-size: 23px;
   color: #ffeb99;
@@ -79,6 +84,9 @@ footer{
   color: #FFA8A8;
   font-size: 20px;
   text-decoration: none;
+}
+.footer-nav-links{
+  list-style-type: none;
 }
 
 .about{
